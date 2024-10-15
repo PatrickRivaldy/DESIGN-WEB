@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px; /* Batasi lebar total */
+            margin: 20px 0; /* Ruang di atas dan bawah */
+        }
+        .elden-ring, .darksoul {
+            max-width: 45%; /* Membagi lebar untuk kedua gambar */
+        }
+        .elden-ring img, .darksoul img {
+            max-width: 100%; /* Membuat gambar responsif */
+            height: auto; /* Menjaga rasio gambar */
+        }
+        .judul-utama, .sub-judul {
+            text-align: center; /* Pusatkan judul utama dan sub-judul */
+        }
+        .review-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px; /* Batasi lebar total untuk review */
+            margin-top: 20px; /* Ruang atas untuk memisahkan dari konten utama */
+        }
+        .review {
+            max-width: 45%; /* Memastikan review tidak lebih dari setengah lebar */
+            margin: 0px auto;
+        }
+        aside {
+            text-align: center; /* Pusatkan judul dan isi aside */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="judul-utama">
+            <h1>Website Game</h1>
+        </div>
+        <div class="sub-judul">
+            <h3>Article Web</h3>
+        </div>
+
+        <main>
+            <article>
+                <div class="container">
+                    <div class="elden-ring">
+                        <h1>Elden Ring</h1>
+                        <img src="images.jpg" alt="">
+                        <p>
+                            **Elden Ring** adalah game aksi peran yang dikembangkan oleh FromSoftware, dirilis pada Februari 2022, dan menggabungkan elemen eksplorasi dunia terbuka dengan mekanika yang dikenal dari seri Dark Souls. Dengan latar belakang dunia luas yang disebut Lands Between, pemain dapat menjelajahi berbagai lokasi, menghadapi musuh dan bos yang menantang, serta menikmati cerita mendalam yang dikembangkan dengan bantuan penulis George R.R. Martin. Kustomisasi karakter dan elemen multiplayer juga menambah kedalaman permainan, menjadikannya salah satu judul paling diakui dan populer di tahun rilisnya.
+                        </p>
+                    </div>
+
+                    <div class="darksoul">
+                        <h1>Dark Souls</h1>
+                        <img src="images.jpg" alt="">
+                        <p>
+                            Dark Souls adalah permainan video aksi peran yang dirilis pada tahun 2011 oleh FromSoftware, dikenal dengan tingkat kesulitan yang tinggi dan desain dunia yang kompleks. Pemain menjelajahi dunia terbuka yang saling terhubung, melawan berbagai musuh dan bos yang kuat, sambil mengumpulkan jiwa sebagai mata uang. Sistem kematian yang unik mengharuskan pemain untuk kembali ke lokasi kematian mereka untuk mengambil kembali jiwa yang hilang. Cerita dan lore disampaikan secara tersembunyi melalui item dan lingkungan, menciptakan narasi yang mendalam. Dark Souls telah menjadi sangat berpengaruh dalam genre RPG, melahirkan sekuel dan inspirasi bagi banyak permainan lainnya.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            </article>
+        </main>
+
+        
+    </header>
+
+    <aside>
+        <h1 class="review">Review Game</h1>
+        <div class="review-container">
+            <div class="review review-elden">
+                <h2>Elden Ring</h2>
+                <p>
+                    **Elden Ring** adalah game aksi peran yang memukau dengan dunia terbuka yang luas dan penuh detail, menawarkan pengalaman eksplorasi yang mendalam dan tantangan yang menarik. Dikembangkan oleh FromSoftware, game ini menggabungkan mekanika pertarungan yang ketat dan sistem progresi karakter yang fleksibel, memungkinkan pemain untuk menyesuaikan gaya bermain mereka. Cerita yang kompleks, ditulis dengan bantuan George R.R. Martin, memberikan lapisan lore yang kaya, sementara desain lingkungan yang menakjubkan mendorong penemuan. Dengan kombinasi elemen multiplayer dan tingkat kesulitan yang tinggi, Elden Ring berhasil menjadi salah satu judul paling diakui dan dicintai di genre RPG, menawarkan pengalaman yang menantang namun memuaskan bagi para penggemar.
+                </p>
+            </div>
+
+            <div class="review review-darksoul">
+                <h2>Dark Souls</h2>
+                <p>
+                    Dark Souls adalah salah satu game yang mendefinisikan ulang genre RPG, dengan tantangan yang brutal dan gameplay yang mendalam. Pemain dihadapkan pada berbagai musuh yang menantang dan sistem pertarungan yang memerlukan ketepatan serta strategi. Dengan lore yang kaya dan dunia yang dirancang dengan baik, Dark Souls menawarkan pengalaman yang sulit dilupakan. Keberhasilan game ini terletak pada kemampuannya untuk menyeimbangkan antara kesulitan dan kepuasan, menjadikannya favorit di kalangan penggemar.
+                </p>
+            </div>
+        </div>
+        <hr>
+    </aside>
+
+
+    <footer>
+        <h2>Tentang penulis</h2>
+        <p>
+            15/10/2024
+        </p>
+    </footer>
+    
+</body>
+</html>
