@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header {
+        text-align: center;
+        background-color: ;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 10px 10px 0 0;
+      }
+      h2 {
+        text-align: center;
+        background-color: ;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(/school-anime-illustration-background_708558-423.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.39);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .group1 label {
+        margin-top: 20px;
+      }
+
+      .group1 input,
+      .group1 textarea,
+      .group1 select {
+        width: 96%;
+        padding: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 25px;
+        opacity: 80%;
+        margin-bottom: 20px;
+      }
+
+      .group1 label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .checkbox {
+        margin-bottom: 20px;
+      }
+
+      .checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Formulis Pendaftaran Ekstrakurikuler</h1>
+    </div>
+    <main>
+      <form action="">
+        <div class="group1">
+          <label for="name">Nama Lengkap</label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div class="group1">
+          <label for="kelas">Kelas</label>
+          <input type="text" id="kelas" name="kelas" />
+        </div>
+
+        <div class="group1">
+          <label for="gender">Jenis Kelamin</label>
+          <select name="gender" id="gender">
+            <option value="L">Laki Laki</option>
+            <option value="P">Perempuan</option>
+          </select>
+        </div>
+
+        <div class="group1">
+          <label for="phone">No. Telepon</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+
+        <div class="group1">
+          <label for="gmail">Email</label>
+          <input type="gmail" id="gmail" />
+        </div>
+
+        <h2>Pilihan Ekstrakurikuler</h2>
+
+        <div class="group2">
+          <input type="checkbox" id="futsal" name="fustsal" value="Futsal" />
+          <label for="futsal">Futsal</label>
+
+          <input type="checkbox" id="robotik" name="ekskul" value="Robotik" />
+          <label for="robotik">Robotik</label>
+
+          <input
+            type="checkbox"
+            id="fotografi"
+            name="ekskul"
+            value="fotografi"
+          />
+          <label for="fotografi">Fotografi</label>
+
+          <input type="checkbox" id="basket" name="ekskul" value="Basket" />
+          <label for="basket">Basket</label>
+
+          <input type="checkbox" id="tari" name="ekskul" value="tari" />
+          <label for="tari">Tari Daerah</label>
+
+          <input type="checkbox" id="pmr" name="ekskul" value="PMR" />
+          <label for="pmr">Pmr</label>
+
+          <input type="checkbox" id="pramuka" name="ekskul" value="Pramuka" />
+          <label for="pramuka">Pramuka</label>
+        </div>
+        <div class="group1">
+          <label for="Alasan">Alasan Memilih Extra tersebut</label>
+          <textarea id="Alasan" name="Alasan" rows="4"></textarea>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p class="note">
+        Catatan: Peserta diwajibkan mengisi dan menandatangani formulir ini
+        bersamaan dengan tanda tangan orang tua/wali.
+      </p>
+    </footer>
+  </body>
+</html>
